@@ -1,0 +1,60 @@
+Data,Diagnostico,Trabalho Realizado,Troca do Componente,Cliente
+01/05/2024,Problema no Sistema Elétrico,Verificação e Reparo no Alternador,Alternador,Juliana Silva
+01/05/2024,Carro Falhando,Substituicao de Velas,Cabos e Velas,Lucas Alves
+01/05/2024,Carro Falhando,Limpeza de Bico,Bicos Injetores,Mateus Oliveira
+02/05/2024,Barulho no Motor,Limpeza de Sensor,Spray Limpa Contatos,Camila Santos
+02/05/2024,Freios Rangendo,Troca de Pastilhas de Freio,Pastilhas de Freio,Rafael Lima
+02/05/2024,Vazamento de Óleo,Troca da Junta do Carter,Junta Carter,Fernanda Oliveira
+02/05/2024,Problema na Suspensão,Troca do Amortecedor Dianteiro,Amortecedor,Thiago Almeida
+03/05/2024,Luzes Piscando no Painel,Verificacao e Troca da Bateria,Bateria,Bruno Santos
+03/05/2024,Falta de Potência,Limpeza do TBI,Spray Limpa Contatos,Julia Costa
+03/05/2024,Ruidos na Transmissão,Troca do Oleo da Transmissão,Oleo para Transmissão,Marcos Souza
+03/05/2024,Luzes Piscando no Painel,Verificacao e Troca de Fusiveis,Kit de Fusiveis,Ana Pereira
+03/05/2024,Fumaça Branca no Escapamento,Substituição do Catalisador,Catalisador,Renata Oliveira
+04/05/2024,Problema na Suspensão,Troca dos Buchas da Bandeja,Buchas da Bandeja,Isabela Silva
+04/05/2024,Alerta de Pressão de Óleo,Substituição do Sensor de Pressão de Óleo,Sensor de Pressao de Oleo,Andre Oliveira
+05/05/2024,Problema no Ar Condicionado,Troca do Filtro de Ar Condicionado,Filtro de Ar Condicionado,Gabriel Santos
+05/05/2024,Carro Falhando,Substituição da Bateria,Bateria,Carolina Lima
+06/05/2024,Barulho ao Frear,Troca dos Discos de Freio,Discos de Freio,Luiz Oliveira
+06/05/2024,Faróis Queimados,Troca de Lâmpadas,Faróis,Beatriz Almeida
+06/05/2024,Freios Rangendo,Troca de Pastilhas de Freio,Pastilhas de Freio,Gustavo Silva
+07/05/2024,Carro Trepidando,Troca dos Pneus Dianteiros,Pneus,Roberto Oliveira
+07/05/2024,Ruidos na Transmissão,Troca do Oleo da Transmissão,Oleo para Transmissão,Juliana Mendes
+08/05/2024,Carro Trepidando,Troca dos Amortecedores Traseiros,Amortecedores,Mariana Alves
+08/05/2024,Ruidos na Transmissão,Troca do Oleo da Transmissão,Oleo para Transmissão,Lucas Mendonça
+08/05/2024,Carro Falhando,Limpeza dos Injetores de Combustível,Injetores de Combustível,Ana Paula Lima
+09/05/2024,Problema no Sistema de Freios,Substituição do Cabo do Freio de Mão,Cabo do Freio de Mão,Paulo Oliveira
+09/05/2024,Problema no Sistema de Freios,Ajuste do Freio de Mão,Freio de Mão,Fernanda Costa
+09/05/2024,Carro Trepidando,Alinhamento e Balanceamento,Alinhamento e Balanceamento,André Almeida
+10/05/2024,Problema de Partida a Frio,Troca das Velas de Aquecimento,Velas de Aquecimento,Patrícia Santos
+10/05/2024,Ruídos no Interior do Carro,Verificação e Lubrificação de Dobradiças,Dobradiças,Marcos Oliveira
+10/05/2024,Problema no Sistema de Freios,Troca da Bomba Hidráulica,Bomba Hidráulica,Carolina Almeida
+11/05/2024,Carro Falhando,Limpeza do Sensor de Oxigênio,Sensor de Oxigênio,Eduardo Lima
+11/05/2024,Freios Rangendo,Troca de Pastilhas de Freio,Pastilhas de Freio,Isabela Alves
+11/05/2024,Problema na Suspensão,Troca do Rolamento da Roda,Rolamento da Roda,Gabriel Costa
+12/05/2024,Carro Falhando,Troca do Filtro de Combustível,Filtro de Combustível,Larissa Oliveira
+12/05/2024,Problema de Aquecimento do Motor,Troca da Válvula Termostática,Válvula Termostática,Carlos Almeida
+12/05/2024,Carro Falhando,Limpeza do Corpo de Borboleta,Corpo de Borboleta,Patricia Alves
+13/05/2024,Faróis Queimados,Troca de Lâmpadas,Faróis,José Silva
+13/05/2024,Problema no Sistema de Arrefecimento,Substituição do Radiador,Radiador,Luana Almeida
+13/05/2024,Ruidos na Transmissão,Troca do Oleo da Transmissão,Oleo para Transmissão,Felipe Oliveira
+14/05/2024,Problema no Sistema de Alimentação de Combustível,Limpeza dos Bicos Injetores,Bicos Injetores,Aline Costa
+14/05/2024,Vazamento de Água no Interior,Troca do Reservatório de Água,Reservatório de Água,Leonardo Alves
+15/05/2024,Ruídos no Câmbio Automático,Troca do Óleo do Câmbio Automático,Óleo do Câmbio Automático,Gisele Almeida
+15/05/2024,Problema no Ar Condicionado,Troca do Filtro de Ar Condicionado,Filtro de Ar Condicionado,Ana Luiza Alves
+16/05/2024,Freios Rangendo,Troca de Pastilhas de Freio,Pastilhas de Freio,Gabriela Oliveira
+16/05/2024,Carro Falhando,Limpeza do Filtro de Ar,Filtro de Ar,Mateus Almeida
+16/05/2024,Problema de Vazamento de Combustível,Troca da Mangueira de Combustível,Mangueira de Combustível,Marcela Silva
+17/05/2024,Barulho no Motor,Troca do Retentor de Válvula,Retentor de Válvula,Guilherme Alves
+17/05/2024,Problema no Sistema de Alimentação de Combustível,Limpeza dos Bicos Injetores,Bicos Injetores,Vanessa Lima
+17/05/2024,Luzes Piscando no Painel,Verificacao e Troca da Bateria,Bateria,Rafaela Almeida
+18/05/2024,Problema no Sistema de Alimentação de Combustível,Limpeza dos Bicos Injetores,Bicos Injetores,Daniel Almeida
+18/05/2024,Barulho no Motor,Troca da Correia Dentada e Tensor,Correia Dentada e Tensor,Paula Almeida
+18/05/2024,Barulho no Motor,Troca de Correia Dentada,Correia Dentada,Matheus Almeida
+19/05/2024,Problema no Ar Condicionado,Troca do Filtro de Ar Condicionado,Filtro de Ar Condicionado,Larissa Almeida
+19/05/2024,Problema no Sistema de Suspensão,Troca do Pivô de Suspensão,Pivô de Suspensão,Gabriel Almeida
+19/05/2024,Carro Falhando,Troca do Módulo de Ignição,Módulo de Ignição,Luiza Almeida
+20/05/2024,Problema no Sistema de Suspensão,Troca do Pivô de Suspensão,Pivô de Suspensão,Diego Almeida
+20/05/2024,Freios Rangendo,Troca do Cilindro Mestre de Freio,Cilindro Mestre de Freio,Bruno Almeida
+20/05/2024,Luzes Piscando no Painel,Verificacao e Troca da Bateria,Bateria,Fernanda Almeida
+21/05/2024,Carro Falhando,Substituicao de Velas,Cabos e Velas,Eduarda Almeida

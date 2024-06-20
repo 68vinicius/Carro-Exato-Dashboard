@@ -19,7 +19,7 @@ with st.container():
 with st.container():
     st.write('---')
 
-st.image("https://raw.githubusercontent.com/68vinicius", caption="www.carroexato.com.br")
+st.image("https://github.com/68vinicius/Carro-Exato-Dashboard/raw/main/Imagens/CarroExatoBanner.jpg", caption="www.carroexato.com.br")
 
 st.subheader('Explore os Detalhes das Manutenções')
 st.markdown("Apresentamos uma variedade de manutenções recentes feitas pela Carro Exato, desde problemas comuns como falhas no motor até questões específicas como vazamentos de óleo. Convidamos você a explorar nossos dados e visualizar detalhes das manutenções realizadas.")

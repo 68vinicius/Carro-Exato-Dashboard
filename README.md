@@ -1,3 +1,5 @@
+![Carro Exato](https://github.com/68vinicius/Carro-Exato-Dashboard/assets/167829379/979a4ca6-2f06-4e32-9bcd-cb345648a351)
+
 # Dashboard Carro Exato
 
 Este é um projeto de dashboard interativo desenvolvido em Python utilizando Streamlit. O dashboard permite a visualização e análise de dados de manutenções realizadas pela Carro Exato.
@@ -37,10 +39,6 @@ Após analisar os dados de manutenções utilizando este dashboard, foram identi
 
 - **Padrões de Serviço**:
   - Algumas manutenções estão correlacionadas com estações do ano, como trocas de óleo de transmissão e preparativos para condições climáticas adversas.
-
-### Benefícios do Dashboard
-
-O uso deste dashboard proporcionou uma visão clara das necessidades dos clientes e dos padrões de serviço da Carro Exato. Isso não apenas facilita o planejamento de serviços futuros, mas também ajuda a otimizar o estoque de peças e a capacitação da equipe técnica para lidar com os problemas mais comuns encontrados.
 
 ### Melhorias Sugeridas
 

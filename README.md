@@ -1,6 +1,6 @@
-![Carro Exato](https://github.com/68vinicius/Carro-Exato-Dashboard/assets/167829379/979a4ca6-2f06-4e32-9bcd-cb345648a351)
+# Análise de Dados Automotivos @Carro Exato
 
-# Dashboard Carro Exato
+![Carro Exato](https://github.com/68vinicius/Carro-Exato-Dashboard/assets/167829379/979a4ca6-2f06-4e32-9bcd-cb345648a351)
 
 Este é um projeto de dashboard interativo desenvolvido em Python utilizando Streamlit. O dashboard permite a visualização e análise de dados de manutenções realizadas pela Carro Exato.
 

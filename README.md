@@ -1,27 +1,8 @@
-# Análise de Dados Automotivos @Carro Exato
+# Análise de Dados Automotivos
 
 ![Carro Exato](https://github.com/68vinicius/Carro-Exato-Dashboard/assets/167829379/979a4ca6-2f06-4e32-9bcd-cb345648a351)
 
 Este é um projeto de dashboard interativo desenvolvido em Python utilizando Streamlit. O dashboard permite a visualização e análise de dados de manutenções realizadas pela Carro Exato.
-
-### Componentes
-
-O código está estruturado em seções principais:
-
-- **Carga e Preparação de Dados**:
-  - Utiliza o pandas para carregar dados de um arquivo CSV (`data/trabalhos.csv`).
-  - Usa `LabelEncoder` do sklearn para codificar variáveis categóricas.
-
-- **Configuração da Página**:
-  - Define o título e configurações da página utilizando `st.set_page_config()`.
-
-- **Elementos Visuais**:
-  - Utiliza containers (`st.container()`) para organizar visualmente o conteúdo.
-  - Inclui títulos e subtítulos formatados em HTML para melhor apresentação.
-
-- **Gráficos e Tabelas**:
-  - Exibe um gráfico de barras interativo (`st.bar_chart()`) mostrando a contagem de diagnósticos.
-  - Permite selecionar um diagnóstico específico através de um seletor (`st.selectbox()`) e exibe os detalhes correspondentes em uma tabela.
 
 ## Resultados e Conclusões
 
@@ -47,3 +28,18 @@ Com base nos insights obtidos, algumas melhorias podem ser consideradas para aum
 - Implementar programas de manutenção preventiva mais agressivos, especialmente para problemas recorrentes como os relacionados aos freios.
 - Explorar oportunidades de oferecer serviços adicionais de limpeza e manutenção de sistemas críticos do veículo.
 - Investigar a possibilidade de expandir o leque de serviços oferecidos para atender a uma gama mais ampla de necessidades de manutenção automotiva.
+
+### Componentes
+
+O código está estruturado em seções principais:
+
+- **Carga e Preparação de Dados**:
+  - Utiliza o pandas para carregar dados de um arquivo CSV (`data/trabalhos.csv`).
+  - Usa `LabelEncoder` do sklearn para codificar variáveis categóricas.
+
+- **Configuração da Página**:
+  - Define o título e configurações da página utilizando `st.set_page_config()`.
+
+- **Gráficos e Tabelas**:
+  - Exibe um gráfico de barras interativo (`st.bar_chart()`) mostrando a contagem de diagnósticos.
+  - Permite selecionar um diagnóstico específico através de um seletor (`st.selectbox()`) e exibe os detalhes correspondentes em uma tabela.

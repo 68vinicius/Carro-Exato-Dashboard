@@ -1,27 +1,15 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-
-tabela = pd.read_csv('Data/trabalhos.csv')
-df = pd.DataFrame(tabela)
-
-datas = tabela['Data']
-valores = tabela['Diagnostico']
-
 plt.figure(figsize=(10, 6))  
-
 plt.plot(datas, valores, marker='o', linestyle='-', color='b', label='Diagnósticos')
 
 plt.xlabel('Data')
 plt.ylabel('Diagnóstico')
 plt.title('Linha do Tempo de Diagnósticos')
 
-
 plt.legend()
 
 plt.grid(True)  
 plt.tight_layout()  
 plt.xticks(rotation=45)  
-plt.show()
 
 df['Data'] = pd.to_datetime(df['Data'], format='%d/%m/%Y')
 
@@ -34,4 +22,5 @@ plt.xlabel('Data')
 plt.ylabel('Número de Trabalhos')
 plt.grid(True)
 plt.tight_layout()
+
 plt.show()

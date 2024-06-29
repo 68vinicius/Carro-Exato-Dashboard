@@ -37,4 +37,4 @@ st.write(df[df['Diagnostico'] == opcao])
 st.subheader('Registro de Manutenções Realizadas')
 st.write(df)
 
-st.info('Os dados são fictícios e foram gerados apenas para fins de demonstração.')
+st.info('Estes dados foram coletados em maio de 2024.')

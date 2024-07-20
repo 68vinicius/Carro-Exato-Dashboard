@@ -1,14 +1,14 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('Data/trabalhos.csv')
+df = pd.read_csv('Data/dataset_diagnostico_reparos_maio_2024.csv')
 
-datas = pd.to_datetime(df['Data'], dayfirst=True)
-clientes = df['Cliente']
-trabalho = df['Trabalho Realizado']
-componentes = df['Troca do Componente']
-peças = df['Peças Trocadas']
-diagnosticos = df['Diagnostico']
+datas = pd.to_datetime(df['data'], dayfirst=True)
+clientes = df['cliente']
+trabalho = df['trabalho_realizado']
+componentes = df['troca_do_componente']
+peças = df['pecas_trocadas']
+diagnosticos = df['diagnostico']
 
 fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(20, 10))
 

@@ -1,0 +1,89 @@
+data,diagnostico,trabalho_realizado,troca_Componente,cliente,pecas_trocadas,veiculo,valor_peca,valor_maodeobra,localizacao_cliente,km_veiculo,tipo_servico,codigo_obd,forma_de_pagamento,garantia
+01/05/2024,Sistema Eletrico,Verificacao e Reparo no Alternador,Alternador,Juliana Silva,1,Ford Fiesta,250,150,Sao Paulo,80000,Manutencao Preventiva,P0101,Cartao de Credito,Sim
+01/05/2024,Carro Falhando,Substituicao de Velas,Cabos e Velas,Lucas Alves,8,Chevrolet Onix,180,200,Rio de Janeiro,60000,Manutencao Corretiva,P0300,Dinheiro,Nao
+01/05/2024,Carro Falhando,Limpeza de Bico,Bicos Injetores,Mateus Oliveira,4,Volkswagen Gol,300,180,Brasilia,70000,Manutencao Preventiva,,Cartao de Debito,Sim
+02/05/2024,Barulho no Motor,Limpeza de Sensor,Spray Limpa Contatos,Camila Santos,1,Toyota Corolla,200,150,Sao Paulo,90000,Revisao Programada,,Transferencia Bancaria,Sim
+02/05/2024,Freios Rangendo,Troca de Pastilhas de Freio,Pastilhas de Freio,Rafael Lima,4,Honda Civic,350,220,Curitiba,75000,Manutencao Corretiva,,Cartao de Credito,Nao
+02/05/2024,Vazamento de Oleo,Troca da Junta do Carter,Junta Carter,Fernanda Oliveira,2,Fiat Palio,150,130,Porto Alegre,85000,Manutencao Preventiva,P0455,Dinheiro,Sim
+02/05/2024,Suspensao,Troca do Amortecedor Dianteiro,Amortecedor,Thiago Almeida,1,Ford EcoSport,280,200,Sao Paulo,95000,Manutencao Corretiva,,Cartao de Credito,Nao
+03/05/2024,Luzes Piscando no Painel,Verificacao e Troca da Bateria,Bateria,Bruno Santos,1,Hyundai HB20,200,150,Rio de Janeiro,60000,Manutencao Preventiva,,Dinheiro,Sim
+03/05/2024,Falta de Potencia,Limpeza do TBI,Spray Limpa Contatos,Julia Costa,1,Chevrolet Prisma,180,180,Sao Paulo,70000,Manutencao Corretiva,,Cartao de Debito,Nao
+03/05/2024,Ruidos na Transmissao,Troca do Oleo da Transmissao,Oleo para Transmissao,Marcos Souza,1,Toyota Hilux,300,250,Belo Horizonte,80000,Revisao Programada,,Cartao de Credito,Sim
+03/05/2024,Luzes Piscando no Painel,Verificacao e Troca de Fusiveis,Kit de Fusiveis,Ana Pereira,4,Renault Kwid,120,100,Porto Alegre,85000,Manutencao Preventiva,,Transferencia Bancaria,Sim
+03/05/2024,Fumaca Branca no Escapamento,Substituicao do Catalisador,Catalisador,Renata Oliveira,1,Ford Ka,400,180,Sao Paulo,90000,Manutencao Corretiva,,Dinheiro,Nao
+04/05/2024,Suspensao,Troca dos Buchas da Bandeja,Buchas da Bandeja,Isabela Silva,2,Chevrolet Tracker,300,220,Curitiba,75000,Manutencao Preventiva,,Cartao de Credito,Sim
+04/05/2024,Alerta de Pressao de Oleo,Substituicao do Sensor de Pressao de Oleo,Sensor de Pressao de Oleo,Andre Oliveira,1,Volkswagen Polo,180,150,Sao Paulo,95000,Manutencao Corretiva,,Dinheiro,Nao
+05/05/2024,Ar Condicionado,Troca do Filtro de Ar Condicionado,Filtro de Ar Condicionado,Gabriel Santos,1,Fiat Uno,150,120,Rio de Janeiro,60000,Manutencao Preventiva,,Cartao de Credito,Sim
+05/05/2024,Carro Falhando,Substituicao da Bateria,Bateria,Carolina Lima,1,Ford Focus,200,150,Sao Paulo,70000,Manutencao Corretiva,P0560,Dinheiro,Nao
+06/05/2024,Barulho ao Frear,Troca dos Discos de Freio,Discos de Freio,Luiz Oliveira,2,Honda Fit,250,180,Brasilia,80000,Manutencao Preventiva,,Cartao de Debito,Sim
+06/05/2024,Farois Queimados,Troca de Lampadas,Farois,Beatriz Almeida,2,Chevrolet Cruze,180,150,Sao Paulo,90000,Manutencao Corretiva,,Cartao de Credito,Nao
+06/05/2024,Freios Rangendo,Troca de Pastilhas de Freio,Pastilhas de Freio,Gustavo Silva,2,Toyota Yaris,300,200,Curitiba,75000,Manutencao Preventiva,,Dinheiro,Sim
+07/05/2024,Carro Trepidando,Troca dos Pneus Dianteiros,Pneus,Roberto Oliveira,2,Renault Duster,400,250,Sao Paulo,95000,Manutencao Corretiva,,Cartao de Credito,Nao
+07/05/2024,Ruidos na Transmissao,Troca do Oleo da Transmissao,Oleo para Transmissao,Juliana Mendes,1,Honda HR-V,250,180,Porto Alegre,85000,Manutencao Preventiva,P0700,Transferencia Bancaria,Sim
+08/05/2024,Carro Trepidando,Troca dos Amortecedores Traseiros,Amortecedores,Mariana Alves,2,Ford Ranger,350,250,Sao Paulo,90000,Manutencao Corretiva,,Dinheiro,Nao
+08/05/2024,Ruidos na Transmissao,Troca do Oleo da Transmissao,Oleo para Transmissao,Lucas Mendonca,1,Chevrolet Spin,200,150,Curitiba,75000,Manutencao Preventiva,,Cartao de Credito,Sim
+08/05/2024,Carro Falhando,Limpeza dos Injetores de Combustivel,Injetores de Combustivel,Ana Paula Lima,1,Hyundai Creta,300,200,Sao Paulo,95000,Manutencao Corretiva,,Dinheiro,Nao
+09/05/2024,Sistema de Freios,Substituicao do Cabo do Freio de Mao,Cabo do Freio de Mao,Paulo Oliveira,1,Toyota RAV4,180,150,Rio de Janeiro,60000,Manutencao Preventiva,,Cartao de Debito,Sim
+09/05/2024,Sistema de Freios,Ajuste do Freio de Mao,Freio de Mao,Fernanda Costa,1,Citroen C4,200,180,Sao Paulo,70000,Manutencao Corretiva,,Cartao de Credito,Nao
+09/05/2024,Carro Trepidando,Alinhamento e Balanceamento,Alinhamento e Balanceamento,Andre Almeida,2,Volkswagen Golf,250,200,Brasilia,80000,Manutencao Preventiva,,Dinheiro,Sim
+10/05/2024,Partida a Frio,Troca das Velas,Cabos de Vela,Patricia Santos,4,Fiat Toro,300,220,Sao Paulo,90000,Manutencao Corretiva,P0303,Cartao de Credito,Nao
+10/05/2024,Ruidos no Interior do Carro,Verificacao e Lubrificacao de Dobradicas,Dobradicas,Marcos Oliveira,1,Jeep Renegade,180,150,Rio de Janeiro,60000,Manutencao Preventiva,,Cartao de Debito,Sim
+10/05/2024,Sistema de Freios,Troca da Bomba Hidraulica,Bomba Hidraulica,Carolina Almeida,2,Peugeot 2008,280,200,Sao Paulo,70000,Manutencao Corretiva,,Dinheiro,Nao
+11/05/2024,Carro Falhando,Limpeza do Sensor de Oxigenio,Sensor de Oxigenio,Eduardo Lima,1,Renault Sandero,200,150,Curitiba,80000,Manutencao Preventiva,P0135,Transferencia Bancaria,Sim
+11/05/2024,Freios Rangendo,Troca de Pastilhas de Freio,Pastilhas de Freio,Isabela Alves,2,Chevrolet S10,300,220,Sao Paulo,90000,Manutencao Corretiva,,Cartao de Credito,Nao
+11/05/2024,Suspensao,Troca do Rolamento da Roda,Rolamento da Roda,Gabriel Costa,1,Ford Fusion,250,180,Rio de Janeiro,60000,Manutencao Preventiva,,Dinheiro,Sim
+12/05/2024,Carro Falhando,Troca do Filtro de Combustivel,Filtro de Combustivel,Larissa Oliveira,1,Hyundai HB20S,180,150,Sao Paulo,70000,Manutencao Corretiva,,Cartao de Debito,Nao
+12/05/2024,Aquecimento do Motor,Troca da Valvula Termostatica,Valvula Termostatica,Carlos Almeida,1,Citroen Aircross,200,180,Brasilia,80000,Manutencao Preventiva,,Cartao de Credito,Sim
+12/05/2024,Carro Falhando,Limpeza do Corpo de Borboleta,Corpo de Borboleta,Patricia Alves,1,Volkswagen Fox,180,150,Sao Paulo,90000,Manutencao Corretiva,,Dinheiro,Nao
+13/05/2024,Farois Queimados,Troca de Lampadas,Farois,Jose Silva,2,Toyota Etios,150,120,Curitiba,75000,Manutencao Preventiva,,Cartao de Credito,Sim
+13/05/2024,Sistema de Arrefecimento,Substituicao do Radiador,Radiador,Luana Almeida,1,Ford Edge,300,250,Sao Paulo,95000,Manutencao Corretiva,,Dinheiro,Nao
+13/05/2024,Ruidos na Transmissao,Troca do Oleo da Transmissao,Oleo para Transmissao,Felipe Oliveira,1,Honda City,200,150,Rio de Janeiro,60000,Manutencao Preventiva,P0715,Cartao de Debito,Sim
+14/05/2024,Sistema de Alimentacao de Combustivel,Limpeza dos Bicos Injetores,Bicos Injetores,Aline Costa,1,Jeep Compass,300,200,Sao Paulo,70000,Manutencao Corretiva,,Cartao de Credito,Nao
+14/05/2024,Vazamento de Agua no Interior,Troca do Reservatorio de Agua,Reservatorio de Agua,Leonardo Alves,1,Chevrolet Equinox,180,150,Curitiba,80000,Manutencao Preventiva,,Dinheiro,Sim
+15/05/2024,Ruidos no Cambio Automatico,Troca do Oleo do Cambio Automatico,Oleo do Cambio Automatico,Gisele Almeida,2,Fiat Mobi,250,180,Sao Paulo,90000,Manutencao Corretiva,P0720,Cartao de Credito,Nao
+15/05/2024,Ar Condicionado,Troca do Filtro de Ar Condicionado,Filtro de Ar Condicionado,Ana Luiza Alves,1,Hyundai i30,200,150,Rio de Janeiro,60000,Manutencao Preventiva,,Cartao de Debito,Sim
+16/05/2024,Freios Rangendo,Troca de Pastilhas de Freio,Pastilhas de Freio,Gabriela Oliveira,2,Chevrolet Trailblazer,300,220,Sao Paulo,95000,Manutencao Corretiva,,Dinheiro,Nao
+16/05/2024,Carro Falhando,Limpeza do Filtro de Ar,Filtro de Ar,Mateus Almeida,1,Toyota Camry,180,150,Curitiba,75000,Manutencao Preventiva,,Cartao de Credito,Sim
+16/05/2024,Vazamento de Combustivel,Troca da Mangueira de Combustivel,Mangueira de Combustivel,Marcela Silva,1,Nissan March,200,180,Sao Paulo,70000,Manutencao Corretiva,,Dinheiro,Nao
+17/05/2024,Barulho no Motor,Troca do Retentor de Valvula,Retentor de Valvula,Guilherme Alves,2,Renault Logan,250,200,Rio de Janeiro,60000,Manutencao Preventiva,,Cartao de Debito,Sim
+17/05/2024,Sistema de Alimentacao de Combustivel,Limpeza dos Bicos Injetores,Bicos Injetores,Vanessa Lima,4,Ford Ka Sedan,300,250,Sao Paulo,80000,Manutencao Corretiva,,Cartao de Credito,Nao
+17/05/2024,Luzes Piscando no Painel,Verificacao e Troca da Bateria,Bateria,Rafaela Almeida,1,Chevrolet Spin Activ,200,150,Curitiba,85000,Manutencao Preventiva,P0620,Dinheiro,Sim
+18/05/2024,Sistema de Alimentacao de Combustivel,Limpeza dos Bicos Injetores,Bicos Injetores,Daniel Almeida,4,Toyota RAV4 Hybrid,350,280,Sao Paulo,90000,Manutencao Corretiva,,Cartao de Credito,Nao
+18/05/2024,Barulho no Motor,Troca da Correia Dentada e Tensor,Correia Dentada e Tensor,Paula Almeida,2,Honda Accord,400,300,Rio de Janeiro,60000,Manutencao Preventiva,,Cartao de Debito,Sim
+18/05/2024,Barulho no Motor,Troca de Correia Dentada,Correia Dentada,Matheus Almeida,1,Hyundai Santa Fe,200,180,Sao Paulo,75000,Manutencao Corretiva,,Dinheiro,Nao
+19/05/2024,Ar Condicionado,Troca do Filtro de Ar Condicionado,Filtro de Ar Condicionado,Larissa Almeida,1,Citroen C3,180,150,Curitiba,80000,Manutencao Preventiva,,Cartao de Credito,Sim
+19/05/2024,Sistema de Suspensao,Troca do Pivo de Suspensao,Pivo de Suspensao,Gabriel Almeida,2,Volkswagen Virtus,250,200,Sao Paulo,85000,Manutencao Corretiva,,Dinheiro,Nao
+19/05/2024,Carro Falhando,Troca do Modulo de Ignicao,Modulo de Ignicao,Luiza Almeida,1,Jeep Cherokee,300,250,Rio de Janeiro,60000,Manutencao Preventiva,,Cartao de Debito,Sim
+20/05/2024,Sistema de Suspensao,Troca do Pivo de Suspensao,Pivo de Suspensao,Diego Almeida,1,Fiat Argo,180,150,Sao Paulo,70000,Manutencao Corretiva,,Cartao de Credito,Nao
+20/05/2024,Freios Rangendo,Troca do Cilindro Mestre de Freio,Cilindro Mestre de Freio,Bruno Almeida,2,Chevrolet Montana,250,200,Curitiba,80000,Manutencao Preventiva,,Dinheiro,Sim
+20/05/2024,Luzes Piscando no Painel,Verificacao e Troca da Bateria,Bateria,Fernanda Almeida,1,Toyota Etios Sedan,200,150,Sao Paulo,85000,Manutencao Corretiva,P0562,Cartao de Credito,Nao
+21/05/2024,Carro Falhando,Substituicao de Velas,Cabos e Velas,Eduarda Almeida,8,Honda HR-V,400,300,Rio de Janeiro,60000,Manutencao Preventiva,,Dinheiro,Sim
+22/05/2024,Problema Eletrico,Troca do Motor de Partida,Motor de Partida,Rodrigo Almeida,1,Honda Fit,350,280,Sao Paulo,80000,Manutencao Corretiva,,Cartao de Credito,Nao
+23/05/2024,Sistema de Arrefecimento,Troca do Radiador,Radiador,Carolina Almeida,1,Chevrolet Onix,300,250,Rio de Janeiro,70000,Manutencao Corretiva,,Dinheiro,Sim
+23/05/2024,Freios Rangendo,Troca do Disco de Freio,Disco de Freio,Marcos Almeida,2,Hyundai HB20X,200,180,Sao Paulo,60000,Manutencao Preventiva,,Cartao de Debito,Nao
+23/05/2024,Ar Condicionado,Troca do Filtro de Cabine,Filtro de Cabine,Larissa Almeida,1,Fiat Uno,100,80,Curitiba,50000,Manutencao Preventiva,,Dinheiro,Sim
+23/05/2024,Sistema de Direcao,Troca da Caixa de Direcao,Caixa de Direcao,Gustavo Almeida,1,Volkswagen Polo,400,300,Sao Paulo,85000,Manutencao Corretiva,,Cartao de Credito,Sim
+23/05/2024,Carro Falhando,Limpeza de TBI e Troca do Sensor de Fluxo de Ar,TBI e Sensor de Fluxo de Ar,Juliana Almeida,2,Toyota Etios Hatch,280,230,Rio de Janeiro,65000,Manutencao Preventiva,,Dinheiro,Nao
+24/05/2024,Sistema de Suspensao,Troca da Barra de Direcao,Barra de Direcao,Felipe Almeida,1,Ford EcoSport,220,180,Sao Paulo,75000,Manutencao Corretiva,,Cartao de Debito,Sim
+24/05/2024,Barulho no Motor,Troca do Comando de Valvulas,Comando de Valvulas,Ana Almeida,1,Chevrolet Prisma,500,400,Curitiba,80000,Manutencao Corretiva,,Dinheiro,Nao
+24/05/2024,Sistema de Alimentacao de Combustivel,Limpeza do Filtro de Combustivel e Injetores,Filtro de Combustivel e Injetores,Guilherme Almeida,2,Renault Kwid,180,150,Sao Paulo,60000,Manutencao Preventiva,,Cartao de Credito,Sim
+24/05/2024,Freios Rangendo,Troca do Fluido de Freio,Fluido de Freio,Bianca Almeida,1,Fiat Mobi,120,100,Rio de Janeiro,55000,Manutencao Corretiva,,Dinheiro,Nao
+24/05/2024,Problema Eletrico,Troca do Chicote Eletrico,Chicote Eletrico,Roberto Almeida,1,Toyota Hilux,600,500,Sao Paulo,90000,Manutencao Corretiva,,Cartao de Debito,Sim
+24/05/2024,Sistema de Arrefecimento,Troca da Valvula Termostatica,Valvula Termostatica,Lucas Almeida,1,Chevrolet Spin,180,150,Curitiba,70000,Manutencao Preventiva,,Dinheiro,Nao
+25/05/2024,Ar Condicionado,Troca do Condensador de Ar Condicionado,Condensador de Ar Condicionado,Isabela Almeida,1,Volkswagen Fox,350,280,Sao Paulo,80000,Manutencao Corretiva,,Cartao de Credito,Sim
+25/05/2024,Sistema de Direcao,Troca da Bomba Hidraulica,Bomba Hidraulica,Rodrigo Almeida,1,Citroen C4 Cactus,400,320,Rio de Janeiro,75000,Manutencao Corretiva,,Dinheiro,Sim
+25/05/2024,Carro Falhando,Troca do Sensor de Oxigenio,Sensor de Oxigenio,Larissa Almeida,1,Hyundai Tucson,200,180,Sao Paulo,65000,Manutencao Preventiva,,Cartao de Debito,Nao
+25/05/2024,Sistema de Suspensao,Troca do Amortecedor Dianteiro,Amortecedor Dianteiro,Juliana Almeida,2,Ford Ranger,500,400,Curitiba,85000,Manutencao Corretiva,,Dinheiro,Sim
+26/05/2024,Barulho no Motor,Verificacao e Troca do Coletor de Escape,Coletor de Escape,Gustavo Almeida,1,Chevrolet Tracker,300,250,Sao Paulo,70000,Manutencao Preventiva,,Cartao de Credito,Sim
+26/06/2024,Problema Eletrico,Troca do Motor de Ventilador,Motor de Ventilador,Bruna Almeida,1,Toyota Camry,280,230,Rio de Janeiro,60000,Manutencao Corretiva,,Dinheiro,Nao
+27/06/2024,Sistema de Arrefecimento,Troca da Junta do Cabecote,Junta do Cabecote,Felipe Almeida,1,Honda Civic,400,320,Sao Paulo,80000,Manutencao Preventiva,,Cartao de Debito,Sim
+27/06/2024,Ar Condicionado,Troca do Pressostato,Pressostato,Bianca Almeida,1,Citroen Aircross,150,120,Curitiba,55000,Manutencao Corretiva,,Dinheiro,Nao
+27/06/2024,Freios Rangendo,Troca do Cilindro de Roda,Cilindro de Roda,Roberto Almeida,2,Hyundai Creta,200,180,Sao Paulo,70000,Manutencao Preventiva,,Cartao de Credito,Sim
+27/06/2024,Sistema de Direcao,Troca da Barra de Direcao,Barra de Direcao,Lucas Almeida,1,Toyota Corolla Cross,300,250,Rio de Janeiro,75000,Manutencao Corretiva,,Dinheiro,Sim
+28/06/2024,Carro Falhando,Limpeza de Bicos Injetores e Troca do Sensor de Fluxo de Ar,Bicos Injetores e Sensor de Fluxo de Ar,Isabela Almeida,2,Fiat Cronos,250,200,Sao Paulo,60000,Manutencao Preventiva,,Cartao de Debito,Nao
+28/06/2024,Sistema de Suspensao,Troca da Bandeja da Suspensao,Bandeja da Suspensao,Guilherme Almeida,1,Renault Duster,180,150,Curitiba,70000,Manutencao Corretiva,,Dinheiro,Nao
+28/06/2024,Barulho no Motor,Troca do Sensor de Posicao do Virabrequim,Sensor de Posicao do Virabrequim,Bianca Almeida,1,Volkswagen Tiguan,200,180,Sao Paulo,65000,Manutencao Preventiva,,Cartao de Credito,Sim
+28/06/2024,Problema Eletrico,Troca do Chicote Eletrico,Chicote Eletrico,Rodrigo Almeida,1,Jeep Renegade,500,400,Rio de Janeiro,80000,Manutencao Corretiva,,Dinheiro,Nao
+28/06/2024,Sistema de Arrefecimento,Troca da Bomba d'Água,Bomba d'Água,Larissa Almeida,1,Chevrolet S10,350,280,Sao Paulo,90000,Manutencao Preventiva,,Cartao de Debito,Sim
+29/06/2024,Ar Condicionado,Troca do Compressor de Ar Condicionado,Compressor de Ar Condicionado,Gustavo Almeida,1,Ford Focus,600,500,Curitiba,85000,Manutencao Corretiva,,Dinheiro,Sim
+29/06/2024,Freios Rangendo,Troca das Pastilhas de Freio,Pastilhas de Freio,Juliana Almeida,2,Toyota Yaris Cross,200,180,Sao Paulo,70000,Manutencao Preventiva,,Cartao de Credito,Nao

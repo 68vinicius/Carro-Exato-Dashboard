@@ -1,46 +1,38 @@
 import streamlit as st
-import pandas as pd 
-from sklearn.preprocessing import LabelEncoder as le
+import pandas as pd
 
 df = pd.read_csv('Data/trabalhos.csv')
-label_encoder = le()
-
-cols_to_encode = ['Diagnostico', 'Trabalho Realizado', 'Troca do Componente']
-for col in cols_to_encode:
-    df[f'{col}_encoded'] = label_encoder.fit_transform(df[col])
 
 st.set_page_config(page_title='Dashboard Carro Exato')
-
-with st.container():
-    st.markdown("<h1 style='text-align: center;'>Carro Exato</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center;'>Manutenções e Diagnósticos Realizadas</h2>", unsafe_allow_html=True)
-
-with st.container():
-    st.write('---')
+st.title('Manutenções e Diagnósticos Realizados')
 
 st.image("https://github.com/68vinicius/Carro-Exato-Dashboard/raw/main/Imagens/CarroExatoBanner.jpg", caption="www.carroexato.com.br")
 
 st.subheader('Explore os Detalhes das Manutenções')
 st.markdown("Apresentamos uma variedade de manutenções recentes feitas pela Carro Exato, desde problemas comuns como falhas no motor até questões específicas como vazamentos de óleo. Convidamos você a explorar nossos dados e visualizar detalhes das manutenções realizadas.")
 
+# Diagnóstico mais Frequente
+diagnostico_contagem = df['Diagnostico'].value_counts()
+diagnostico_mais_frequente = diagnostico_contagem.idxmax()
+quantidade_diagnosticos = diagnostico_contagem.max()
+
+with st.container():
+    st.subheader('Análise de Diagnósticos:')
+    st.write(f"O diagnóstico mais frequente foi '{diagnostico_mais_frequente}' com {quantidade_diagnosticos} ocorrências.")
+    st.bar_chart(diagnostico_contagem)
+
 # Seletores
 opcao = st.selectbox('Selecione um Diagnóstico:', df['Diagnostico'].unique())
 st.write(df[df['Diagnostico'] == opcao])
-
-# Gráfico de Barras 
-with st.container():
-    diagnostico_contagem = df['Diagnostico'].value_counts()
-    st.bar_chart(diagnostico_contagem)
 
 # Tabela
 st.subheader('Registro de Manutenções Realizadas')
 st.write(df)
 
-st.sidebar.title('Informações Adicionais')
-st.sidebar.info('Estes dados foram coletados em maio de 2024.')
-
 # Widgets Adicionais 
+st.sidebar.title('Informações Adicionais')
 st.sidebar.subheader('Opções Adicionais')
+
 opcao_sidebar = st.sidebar.selectbox('Selecione uma Opção:', ['Informações Gerais', 'Contato', 'FAQ'])
 
 if opcao_sidebar == 'Informações Gerais':
@@ -81,3 +73,4 @@ elif opcao_sidebar == 'FAQ':
     """)
 
 st.info('Estes dados foram coletados em maio de 2024.')
+st.sidebar.info('Estes dados foram coletados em maio de 2024.')

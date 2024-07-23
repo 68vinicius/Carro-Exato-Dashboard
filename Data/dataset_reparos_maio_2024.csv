@@ -1,4 +1,4 @@
-data,diagnostico,trabalho_realizado,troca_Componente,cliente,pecas_trocadas,veiculo,valor_peca,valor_maodeobra,localizacao_cliente,km_veiculo,tipo_servico,codigo_obd,forma_de_pagamento,garantia
+data,diagnostico,trabalho_realizado,troca_componente,cliente,pecas_trocadas,veiculo,valor_peca,valor_maodeobra,localizacao_cliente,km_veiculo,tipo_servico,codigo_obd,forma_de_pagamento,garantia
 01/05/2024,Sistema Eletrico,Verificacao e Reparo no Alternador,Alternador,Juliana Silva,1,Ford Fiesta,250,150,Sao Paulo,80000,Manutencao Preventiva,P0101,Cartao de Credito,Sim
 01/05/2024,Carro Falhando,Substituicao de Velas,Cabos e Velas,Lucas Alves,8,Chevrolet Onix,180,200,Rio de Janeiro,60000,Manutencao Corretiva,P0300,Dinheiro,Nao
 01/05/2024,Carro Falhando,Limpeza de Bico,Bicos Injetores,Mateus Oliveira,4,Volkswagen Gol,300,180,Brasilia,70000,Manutencao Preventiva,,Cartao de Debito,Sim

@@ -6,24 +6,11 @@ df = pd.read_csv('Data/dataset_reparos_maio_2024.csv')
 st.set_page_config(page_title='Dashboard Carro Exato')
 st.markdown("<h1 style='text-align: center;'>Diagnósticos e Manutenções</h1>", unsafe_allow_html=True)
 st.image("https://github.com/68vinicius/Carro-Exato-Dashboard/raw/main/Imagens/CarroExatoBanner.jpg", caption="www.carroexato.com.br")
-st.subheader('Explore os Detalhes das Manutenções')
+st.subheader('Explore os Detalhes das Manutenções de Maio')
 st.markdown("Apresentamos uma variedade de manutenções recentes feitas pela Carro Exato, desde problemas comuns como falhas no motor até questões específicas como vazamentos de óleo. Convidamos você a explorar nossos dados e visualizar detalhes das manutenções realizadas.")
 
-meses = df['data'].str.slice(3, 10).unique()
-mes_selecionado = st.selectbox('Selecione o Mês:', meses)
-df_mes = df[df['data'].str.contains(mes_selecionado)]
-
-# KPIs
-total_diagnosticos = df_mes.shape[0]
-custo_total_pecas = df_mes['valor_peca'].sum()
-custo_total_maodeobra = df_mes['valor_maodeobra'].sum()
-
-col1, col2, col3 = st.columns(3)
-col1.metric('Total de Serviços', total_diagnosticos)
-col2.metric('Custo Total de Peças', f'R$ {custo_total_pecas:.2f}')
-col3.metric('Custo Total de Mão de Obra', f'R$ {custo_total_maodeobra:.2f}')
-
-diagnostico_contagem = df_mes['diagnostico'].value_counts()
+# Diagnóstico mais Frequente
+diagnostico_contagem = df['diagnostico'].value_counts()
 diagnostico_mais_frequente = diagnostico_contagem.idxmax()
 quantidade_diagnosticos = diagnostico_contagem.max()
 
@@ -33,16 +20,18 @@ with st.container():
     st.bar_chart(diagnostico_contagem)
 
 # Seletores
-opcao = st.selectbox('Selecione um Diagnóstico:', df_mes['diagnostico'].unique())
-st.write(df_mes[df_mes['diagnostico'] == opcao])
+opcao = st.selectbox('Selecione um Diagnóstico:', df['diagnostico'].unique())
+st.write(df[df['diagnostico'] == opcao])
 
 # Tabela
 st.subheader('Registro de Manutenções Realizadas')
-st.write(df_mes)
+st.write(df)
+st.info('Estes dados foram coletados em maio de 2024.')
 
 # Widgets Adicionais 
 st.sidebar.title('Informações Adicionais')
 st.sidebar.subheader('Opções Adicionais')
+st.sidebar.info('Estes dados foram coletados em maio de 2024.')
 
 opcao_sidebar = st.sidebar.selectbox('Selecione uma Opção:', ['Informações Gerais', 'Contato', 'FAQ'])
 if opcao_sidebar == 'Informações Gerais':
@@ -81,4 +70,5 @@ elif opcao_sidebar == 'FAQ':
     - **5. Posso contribuir com o projeto?.** Sim, contribuições são bem-vindas!
                     
     """)
-st.info(f'Estes dados foram coletados em {mes_selecionado}.')
+
+st.sidebar.info('Estes dados foram coletados em Maio de 2024.')

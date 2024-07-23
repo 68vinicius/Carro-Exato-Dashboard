@@ -1,12 +1,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('Data/dataset_diagnostico_reparos_maio_2024.csv')
+df = pd.read_csv('Data/dataset_reparos_maio_2024.csv')
 
 datas = pd.to_datetime(df['data'], dayfirst=True)
 clientes = df['cliente']
 trabalho = df['trabalho_realizado']
-componentes = df['troca_do_componente']
+componentes = df['troca_componente']
 peças = df['pecas_trocadas']
 diagnosticos = df['diagnostico']
 

@@ -1,72 +1,77 @@
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
+# Carregar dados
 df = pd.read_csv('Data/dataset_reparos_2024.csv')
 
+# Configurar página Streamlit
 st.set_page_config(page_title='Dashboard Carro Exato')
 st.markdown('<h1 style=\'text-align: center;\'>Diagnósticos e Manutenções</h1>', unsafe_allow_html=True)
 st.image('https://github.com/68vinicius/Carro-Exato-Dashboard/raw/main/Imagens/CarroExatoBanner.jpg', caption='www.carroexato.com.br')
-st.subheader('Explore os Detalhes das Manutenções')
+st.subheader('Explore os Detalhes das Manutenções de Maio')
 st.markdown('Apresentamos uma variedade de manutenções recentes feitas pela Carro Exato, desde problemas comuns como falhas no motor até questões específicas como vazamentos de óleo. Convidamos você a explorar nossos dados e visualizar detalhes das manutenções realizadas.')
 
-meses = df['data'].str.slice(3, 10).unique()
-mes_selecionado = st.selectbox('Selecione o Mês:', meses)
+# Converter coluna de data
+df['data'] = pd.to_datetime(df['data'], dayfirst=True)
 
-class GerenciadorKPI:
-    def __init__(self, dataframe):
-        self.df = dataframe
-        self.df_mes = None
+# Filtrar apenas o mês de maio
+df_maio = df[df['data'].dt.month == 5]
 
-    def filtrar_por_mes(self, mes):
-        self.df_mes = self.df[self.df['data'].str.contains(mes)]
+# KPIs
+total_diagnosticos = df_maio.shape[0]
+custo_total_pecas = df_maio['valor_peca'].sum()
+custo_total_maodeobra = df_maio['valor_maodeobra'].sum()
 
-    def calcular_kpis(self):
-        if self.df_mes is None:
-            raise ValueError('DataFrame não filtrado. Chame o método filtrar_por_mes primeiro.')
-        
-        total_diagnosticos = self.df_mes.shape[0]
-        custo_total_pecas = self.df_mes['valor_peca'].sum()
-        custo_total_maodeobra = self.df_mes['valor_maodeobra'].sum()
-        return total_diagnosticos, custo_total_pecas, custo_total_maodeobra
+col1, col2, col3 = st.columns(3)
+col1.metric('Total de Serviços', total_diagnosticos)
+col2.metric('Custo Total de Peças', f'R$ {custo_total_pecas}')
+col3.metric('Custo Total de Mão de Obra', f'R$ {custo_total_maodeobra}')
 
-    def display_kpis(self):
-        total_diagnosticos, custo_total_pecas, custo_total_maodeobra = self.calcular_kpis()
+diagnostico_contagem = df_maio['diagnostico'].value_counts()
+diagnostico_mais_frequente = diagnostico_contagem.idxmax()
+quantidade_diagnosticos = diagnostico_contagem.max()
 
-        col1, col2, col3 = st.columns(3)
-        col1.metric('Total de Serviços', total_diagnosticos)
-        col2.metric('Custo Total de Peças', f'R$ {custo_total_pecas}')
-        col3.metric('Custo Total de Mão de Obra', f'R$ {custo_total_maodeobra}')
+def plotar_grafico_componentes(dados):
+    fig, ax = plt.subplots(figsize=(12, 8))
+    componentes_contagem = dados['troca_componente'].value_counts()
+    wedges, texts, autotexts = ax.pie(
+        componentes_contagem,
+        labels=componentes_contagem.index,
+        autopct='%1.1f%%',
+        startangle=140,
+        colors=sns.color_palette('pastel'),
+        wedgeprops=dict(width=0.3)
+    )
+    ax.set_title('Distribuição de Componentes Trocados', fontsize=16)
+    plt.setp(autotexts, size=10, weight='bold')
+    plt.setp(texts, size=12)
+    return fig
 
-    def diagnostico_analise(self):
-        if self.df_mes is None:
-            raise ValueError('DataFrame não filtrado. Chame o método filtrar_por_mes primeiro.')
-        
-        diagnostico_contagem = self.df_mes['diagnostico'].value_counts()
-        diagnostico_mais_frequente = diagnostico_contagem.idxmax()
-        quantidade_diagnosticos = diagnostico_contagem.max()
-        return diagnostico_contagem, diagnostico_mais_frequente, quantidade_diagnosticos
+def plotar_grafico_linha_tempo_trabalho(dados):
+    fig, ax = plt.subplots(figsize=(12, 8))
+    sns.scatterplot(data=dados, x='data', y='trabalho_realizado', hue='trabalho_realizado', palette='viridis', s=100, ax=ax)
+    ax.set_xlabel('Data', fontsize=14)
+    ax.set_ylabel('Trabalho Realizado', fontsize=14)
+    ax.set_title('Data x Trabalho Realizado', fontsize=16)
+    ax.grid(True)
+    return fig
 
-    def display_diagnostico_analise(self):
-        diagnostico_contagem, diagnostico_mais_frequente, quantidade_diagnosticos = self.diagnostico_analise()
+# Exibir gráficos atualizados
+st.subheader('Distribuição de Componentes Trocados')
+fig_componentes = plotar_grafico_componentes(df_maio)
+st.pyplot(fig_componentes)
 
-        st.subheader('Análise de Diagnósticos:')
-        st.write(f'O diagnóstico mais frequente foi {diagnostico_mais_frequente} com {quantidade_diagnosticos} ocorrências.')
-        st.bar_chart(diagnostico_contagem)
+st.subheader('Data x Trabalho Realizado')
+fig_linha_tempo_trabalho = plotar_grafico_linha_tempo_trabalho(df_maio)
+st.pyplot(fig_linha_tempo_trabalho)
 
-kpi_manager = GerenciadorKPI(df)
-kpi_manager.filtrar_por_mes(mes_selecionado)
-kpi_manager.display_kpis()
-kpi_manager.display_diagnostico_analise()
-
-# Seletores
-opcao = st.selectbox('Selecione um Diagnóstico:', kpi_manager.df_mes['diagnostico'].unique())
-st.write(kpi_manager.df_mes[kpi_manager.df_mes['diagnostico'] == opcao])
-
-# Tabela
+# Tabela com dados filtrados
 st.subheader('Registro de Manutenções Realizadas')
-st.write(kpi_manager.df_mes)
+st.write(df_maio)
 
-# Widgets Adicionais 
+# Informações adicionais na barra lateral
 st.sidebar.title('Informações Adicionais')
 st.sidebar.subheader('Opções Adicionais')
 
@@ -108,4 +113,5 @@ elif opcao_sidebar == 'FAQ':
                     
     """)
 
-st.info(f'Estes dados foram coletados em {mes_selecionado}.')
+st.sidebar.info('Estes dados foram coletados em maio de 2024.')
+st.info('Estes dados foram coletados em maio de 2024.')
